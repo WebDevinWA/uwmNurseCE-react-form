@@ -1,0 +1,689 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* .App {
+  text-align: center;
+} */
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* .App-header {
+     background-color: #282c34;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     font-size: calc(10px + 2vmin);
+     color: white;
+} */
+
+/* .App-link {
+     color: #61dafb;
+} */
+
+#Col1 {
+    background-color: #11e68a;
+}
+
+#Col2 {
+    background-color: #e66611;
+}
+
+.row {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.header-form {
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #fff;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+/* .app-wrapper {
+     width: 100%;
+     padding-right: 45px;
+     height: -moz-calc(100% - 100px); /* Firefox 
+     height: -webkit-calc(100% - 100px); /* Chrome, Safari 
+     height: calc(100% - 100px); /*IE9+ and future browsers 
+}  
+/*
+
+/* .app-frame {
+     height: 950px;
+     width: 100%;
+     top:0px;
+     left:0px;
+     position: absolute;
+     overflow-x: hidden;
+     overflow-y: hidden;
+   }  */
+
+/* header */
+
+/* .uw-header-logo img {
+  width: 170px;
+}
+
+.logo-padding {
+  margin-left: -5px !important;
+} */
+
+/* buttons */
+
+#btnGroup {
+    margin-top:20px;
+}
+
+#cbDenied,
+#cbReviewed {
+    height:20px;
+    width:20px;
+}
+
+#emailRequester {
+    margin-right: 20px;
+}
+
+#submitApproval {
+    padding: 10px;  
+    margin-right:10px;   
+}
+
+#submitRetraction{
+    padding:10px;
+    margin-left:10px;
+}
+
+.title-font {
+    font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 16px;
+    color: #32006e;
+}
+
+/* Forms pages */
+
+.SupervisorApprovalForm {
+    background-color: #bfd8f0;
+    width: 100%;
+    text-align: center;
+}
+
+.redbold {
+    text-decoration-color:red;
+    font-weight:bold;
+}
+
+.italicbold {
+    font-style:italic;
+    font-weight:bold;
+}
+
+.underlinebold {
+    text-decoration:underline;
+    font-weight:bold;
+}
+/* Footer */
+
+.footer-font-large {
+    font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.footer-font-small {
+    font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.footer-form {
+    color: #ffffff;
+    background: linear-gradient(95deg, #32006e, #32006e 45%, #76236c);
+    height: 100px;
+    width: 100%;
+    /*   position: absolute;
+     top: 890px; */
+}
+
+/* Authentication */
+#sign-out {
+    text-decoration: none;
+}
+
+    #sign-out:hover {
+        text-decoration: underline;
+        color: #32006e;
+    }
+
+#main {
+    height: 68px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+}
+
+.h1,
+h1 {
+    margin-left: 38px;
+    color: #5d348b;
+    font-family: "Encode Sans", sans-serif !important;
+    font-size: 35px;
+    margin-bottom: 15px;
+    font-weight: 520;
+}
+
+.h2,
+h2 {
+    margin-left: 38px;
+    font-family: "Encode Sans", sans-serif !important;
+    margin-bottom: 15px;
+}
+
+.h6,
+h6 {
+    font-size: 1rem;
+    padding-right: 5px;
+    padding-left: 20px;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#HomeTabs {
+    background-color: #9467bd;
+    font-weight: bolder;
+    color: #000000;
+}
+
+.nav-link {
+    font-weight: bold !important;
+    color: #000000 !important;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.link {
+    color: white;
+    font-size: xx-large !important;
+    margin-right: 30px;
+    margin-top:20px;
+}
+
+.activeTab {
+    background-color: lightgrey;
+    color: black; 
+    font-size: xx-large !important; 
+    margin-right: 30px;
+}  
+
+
+.navbar .p-menuitem-link.active {
+    text-decoration: underline;
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.label {
+    padding: 5px;
+    padding-right: 10px;
+}
+
+#ReportForm {
+    background-color: #faefd4;
+}
+
+#ManagerForm {
+    background-color: #b3b6c6;
+}
+
+.boldblack {
+    color: black;
+    font-weight: bold;
+}
+
+textarea {
+    background-color: white !important;
+    border-radius: 7px;
+    height: 40px;
+    width: 400px;
+}
+
+.bluebackground {
+    background-color: #8088b0;
+    margin-bottom: 10px;
+}
+
+.ReportFormDepartmentTableBackground {
+    border: 5px solid black;
+}
+
+#SupervisorFormHeaderContainer {
+    background-color: #8088b0 !important;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 10px;
+    display:flex;
+}
+
+#CourseDiv {
+   flex:1;
+   display:inline-block;
+   
+ }
+
+.Course-From input {
+width:700px;
+}
+
+#FundsDiv {
+    flex:2;
+}
+
+.TableBackground {
+    background-color: #8088b0 !important;
+    font-weight: bold;
+    color: white;    
+}
+
+InputText {
+    background-color: white !important;
+    border-radius: 7px;
+    height: 50px;
+    width: 400px;
+    padding-right: 10px !important;
+    padding-left: 5px;
+}
+
+#tbCourseTitle,
+#tbVendor,
+#tbLocation,
+#tbStartDate,
+#tbEndDate,
+#taCourseNotes {
+    width:700px;
+}
+
+.p-inputtext {
+    border-radius: 7px;
+}
+
+#tbName,
+#tbEmployeeID,
+#tbFTE,
+#tbDepartment,
+#tbRegID {
+    box-sizing: inherit;
+    height: 40px !important;
+    margin-right:20px;
+}
+
+.TableRedText {
+    background-color: #b3b6c6;
+    font-weight: bold;
+    color: #4b0d85;
+    padding-bottom: 10px;
+}
+
+.TableLightBackground {
+    background-color: #b3b6c6;
+    font-weight: bold;
+    color: black;
+}
+
+#root {
+    background-color: #8088b0;
+    height: 100vh;
+}
+
+/* Controls  */
+
+Button {
+    padding: 10px;
+    margin: 10px;
+}
+
+#adminTables {
+    align-content: stretch;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+}
+
+.departmentListForm {
+    background-color: #ddbf71;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.departmentListPageRow {
+    flex-wrap: nowrap;
+}
+
+.logoutPage {
+    height: auto;
+    background-color: #ddbf71;
+}
+
+Select {
+    background-color: grey;
+}
+
+select {
+    font-weight: bold;
+    border: 6px solid blue;
+    color: black;
+    font-size: medium;
+}
+
+#departmentSelect {
+    border: blue;
+    border: blue 5px solid;
+    font-size: large;
+}
+
+.selectIcon {
+    font-size: x-large;
+}
+
+.list-container {
+    max-height: 300px; /* Set the maximum height of the list container */
+    overflow-y: scroll; /* Enable vertical scrollbar when needed */
+    border: 4px solid black; /* Add a 4px wide black border */
+    background-color: white; /* Set the background color to white */
+}
+
+.list {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+    .list li {
+        font-size: 11px; /* Set the font size for list items */
+        line-height: 1.5; /* Adjust the line height as desired */
+    }
+
+/* DataTableDemo.css */
+
+
+
+.datatable-doc-demo .p-paginator .p-paginator-current {
+    margin-left: auto;
+}
+
+.datatable-doc-demo .p-progressbar {
+    height: 0.5rem;
+    background-color: #d8dadc;
+}
+
+    .datatable-doc-demo .p-progressbar .p-progressbar-value {
+        background-color: #607d8b;
+    }
+
+.datatable-doc-demo .p-datepicker {
+    min-width: 25rem;
+}
+
+    .datatable-doc-demo .p-datepicker td {
+        font-weight: 400;
+    }
+
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-header {
+    padding: 1rem;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-paginator {
+    padding: 1rem;
+}
+
+.datatable-doc-demo
+.p-datatable.p-datatable-customers
+.p-datatable-thead > tr > th {
+    text-align: left;
+}
+
+.datatable-doc-demo
+.p-datatable.p-datatable-customers
+.p-dropdown-label:not(.p-placeholder) {
+    text-transform: uppercase;
+}
+
+.p-datatable-table {
+    border-spacing: 0;
+    justify-content: center;
+    text-align: left;
+}
+
+/* DataTableDemo.css */
+
+.datatable-selection-demo .card h6 {
+    margin-top: 2rem;
+}
+
+    .datatable-selection-demo .card h6:first-of-type {
+        margin-top: 0;
+    }
+
+p-selectable-row {
+    background-color: #607d8b !important;
+}
+
+body .p-datatable .p-datatable-tbody > tr.p-highlight {
+    background-color: #ddbf71;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.departmentListForm {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+.centeredform {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:large;
+}
+
+centeredloginform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    margin-top: 50px !important;
+}
+
+#btnLogin {
+   margin-top: 20px;
+   padding:20px;
+   text-align:center;
+}
+
+.leftcomponent {
+    flex: 1;
+}
+
+.rightcomponent {
+    flex: 1;
+}
+
+.Container {
+    text-align:right;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-top:20px;
+}
+
+.container {
+    text-align: center;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.25rem;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.nav li:hover {
+    background-color: #777;
+}
+
+.nav li.active {
+    background-color:#lightgray important!;
+    text-decoration: underline !important;
+}
+
+.nav {
+    background: linear-gradient(95deg, #32006e, #32006e 45%, #76236c);
+    height: 100px;
+    color: white;
+}
+
+li {
+    background-color: lightpurple !important;
+    font-size: xx-large;
+}
+
+#logo {
+    height: 100px;
+    width: 400px;
+    margin-right: 200px;
+    margin-left: 20px;
+}
+
+#btnSelectDept {
+    margin-left: 850px;
+    position:fixed;
+    z-index: 100px;
+    margin-top:150px;
+}
+
+#btnRetractApproval {
+    margin-left: 850px;
+    position: fixed;
+    z-index: 100px;
+    margin-top: 250px;
+}
+
+.table-wrapper {
+    width: 650px !important;
+    /* max-height: 50%; */
+    overflow-y: visible;
+    /* margin-top: -1000px; */
+    padding-top: 0px;
+    /* height: inherit; */
+    overflow: scroll;
+    height: 950px;
+    background-color: white;
+    font-size: x-large;
+}
+
+#SupervisorPageTable {
+    width: 100%;
+    /* margin-left: -30rem; */
+    margin-bottom: none;
+    vertical-align: top;
+    border-color: none;
+    background-color: white;
+}
+
+#ManagerPageTable {
+    /* margin-left: -30rem; */
+    background-color: white;
+}
+
+#AdminPageTable {
+    width: 100%;
+    /* margin-left: -30rem; */
+    margin-bottom: none;
+    vertical-align: top;
+    border-color: none;
+    background-color: white;
+}
+
+/* Specific styles for active links */
+/* .link-active {
+  color: black;
+  background: #d8dadc;
+} */
+

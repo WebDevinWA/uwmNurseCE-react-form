@@ -1,0 +1,59 @@
+/* gridStyles.css */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 30% 20% 40%; 
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "courseform fundsform"
+        "email-buttons email-buttons"
+        "supervisorapprovalform supervisorapprovalform"; 
+    justify-items: center;
+}
+
+.courseform {
+    flex: 1;
+    grid-area: courseform;
+}
+
+.fundsform {
+    flex: 2;
+    grid-area: fundsform;
+}
+
+.email-buttons {
+    grid-area: email-buttons;
+    padding: 20px;
+}
+
+.supervisorapprovalform
+{
+    grid-area: supervisorapprovalform;
+    background-color: #002855;
+    padding: 20px;
+    margin-bottom:20px;
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+}
+
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    align-items: center;
+    align-content: space-between;
+    margin: 20px;
+    margin-left: 50px;
+}
